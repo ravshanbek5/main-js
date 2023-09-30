@@ -12,7 +12,7 @@ if(promptElement<=6){
 }
 if(promptElement>6 && promptElement<=17){
     console.log("sz maktabda oqishingiz kerak");
-    maktabElementElement.style.display="block";
+    maktabElement.style.display="block";
 }if(promptElement>17 && promptElement<=22){
     console.log("sz universitetda oqishingiz kerak");
     univElement.style.display="block";
@@ -21,5 +21,5 @@ if(promptElement>6 && promptElement<=17){
     ishElement.style.display="block";
 }if(promptElement>63){
     console.log("sz pensiyaner bo'lishingiz kerak");
-    pensiyaElementElement.style.display="block";
+    pensiyaElement.style.display="block";
 }
